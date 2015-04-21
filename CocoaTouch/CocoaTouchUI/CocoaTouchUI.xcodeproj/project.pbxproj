@@ -10,6 +10,17 @@
 		C0E22B9B1AE650A5003D5336 /* CocoaTouchUI.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E22B9A1AE650A5003D5336 /* CocoaTouchUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0E22BA11AE650A6003D5336 /* CocoaTouchUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E22B951AE650A5003D5336 /* CocoaTouchUI.framework */; };
 		C0E22BA81AE650A6003D5336 /* CocoaTouchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E22BA71AE650A6003D5336 /* CocoaTouchUITests.m */; };
+		C0E22BBC1AE653CB003D5336 /* CTPullUpControl.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E22BB11AE653CB003D5336 /* CTPullUpControl.h */; };
+		C0E22BBD1AE653CB003D5336 /* UIXMessageInputView.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E22BB21AE653CB003D5336 /* UIXMessageInputView.h */; };
+		C0E22BBE1AE653CB003D5336 /* CTPullUpControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E22BB31AE653CB003D5336 /* CTPullUpControl.m */; };
+		C0E22BBF1AE653CB003D5336 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E22BB41AE653CB003D5336 /* MBProgressHUD.h */; };
+		C0E22BC01AE653CB003D5336 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E22BB51AE653CB003D5336 /* MBProgressHUD.m */; };
+		C0E22BC11AE653CB003D5336 /* CTMessageTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E22BB61AE653CB003D5336 /* CTMessageTextView.m */; };
+		C0E22BC21AE653CB003D5336 /* CTMessageTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E22BB71AE653CB003D5336 /* CTMessageTextView.h */; };
+		C0E22BC31AE653CB003D5336 /* UIXMessageInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E22BB81AE653CB003D5336 /* UIXMessageInputView.m */; };
+		C0E22BC41AE653CB003D5336 /* IRefreshView.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E22BB91AE653CB003D5336 /* IRefreshView.h */; };
+		C0E22BC51AE653CB003D5336 /* CTPullDownControl.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E22BBA1AE653CB003D5336 /* CTPullDownControl.h */; };
+		C0E22BC61AE653CB003D5336 /* CTPullDownControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E22BBB1AE653CB003D5336 /* CTPullDownControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +40,17 @@
 		C0E22BA01AE650A6003D5336 /* CocoaTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E22BA61AE650A6003D5336 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0E22BA71AE650A6003D5336 /* CocoaTouchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaTouchUITests.m; sourceTree = "<group>"; };
+		C0E22BB11AE653CB003D5336 /* CTPullUpControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTPullUpControl.h; sourceTree = "<group>"; };
+		C0E22BB21AE653CB003D5336 /* UIXMessageInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXMessageInputView.h; sourceTree = "<group>"; };
+		C0E22BB31AE653CB003D5336 /* CTPullUpControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTPullUpControl.m; sourceTree = "<group>"; };
+		C0E22BB41AE653CB003D5336 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		C0E22BB51AE653CB003D5336 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		C0E22BB61AE653CB003D5336 /* CTMessageTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMessageTextView.m; sourceTree = "<group>"; };
+		C0E22BB71AE653CB003D5336 /* CTMessageTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMessageTextView.h; sourceTree = "<group>"; };
+		C0E22BB81AE653CB003D5336 /* UIXMessageInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXMessageInputView.m; sourceTree = "<group>"; };
+		C0E22BB91AE653CB003D5336 /* IRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRefreshView.h; sourceTree = "<group>"; };
+		C0E22BBA1AE653CB003D5336 /* CTPullDownControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTPullDownControl.h; sourceTree = "<group>"; };
+		C0E22BBB1AE653CB003D5336 /* CTPullDownControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTPullDownControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +93,17 @@
 		C0E22B971AE650A5003D5336 /* CocoaTouchUI */ = {
 			isa = PBXGroup;
 			children = (
+				C0E22BB41AE653CB003D5336 /* MBProgressHUD.h */,
+				C0E22BB51AE653CB003D5336 /* MBProgressHUD.m */,
+				C0E22BB91AE653CB003D5336 /* IRefreshView.h */,
+				C0E22BBA1AE653CB003D5336 /* CTPullDownControl.h */,
+				C0E22BBB1AE653CB003D5336 /* CTPullDownControl.m */,
+				C0E22BB11AE653CB003D5336 /* CTPullUpControl.h */,
+				C0E22BB31AE653CB003D5336 /* CTPullUpControl.m */,
+				C0E22BB71AE653CB003D5336 /* CTMessageTextView.h */,
+				C0E22BB61AE653CB003D5336 /* CTMessageTextView.m */,
+				C0E22BB21AE653CB003D5336 /* UIXMessageInputView.h */,
+				C0E22BB81AE653CB003D5336 /* UIXMessageInputView.m */,
 				C0E22B9A1AE650A5003D5336 /* CocoaTouchUI.h */,
 				C0E22B981AE650A5003D5336 /* Supporting Files */,
 			);
@@ -110,6 +143,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0E22B9B1AE650A5003D5336 /* CocoaTouchUI.h in Headers */,
+				C0E22BC21AE653CB003D5336 /* CTMessageTextView.h in Headers */,
+				C0E22BBD1AE653CB003D5336 /* UIXMessageInputView.h in Headers */,
+				C0E22BBF1AE653CB003D5336 /* MBProgressHUD.h in Headers */,
+				C0E22BC51AE653CB003D5336 /* CTPullDownControl.h in Headers */,
+				C0E22BBC1AE653CB003D5336 /* CTPullUpControl.h in Headers */,
+				C0E22BC41AE653CB003D5336 /* IRefreshView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +248,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0E22BC11AE653CB003D5336 /* CTMessageTextView.m in Sources */,
+				C0E22BBE1AE653CB003D5336 /* CTPullUpControl.m in Sources */,
+				C0E22BC31AE653CB003D5336 /* UIXMessageInputView.m in Sources */,
+				C0E22BC61AE653CB003D5336 /* CTPullDownControl.m in Sources */,
+				C0E22BC01AE653CB003D5336 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +442,7 @@
 				C0E22BAD1AE650A6003D5336 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0E22BAE1AE650A6003D5336 /* Build configuration list for PBXNativeTarget "CocoaTouchUITests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +451,7 @@
 				C0E22BB01AE650A6003D5336 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
