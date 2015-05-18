@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-
 @interface AKAssetsCell : UICollectionViewCell
 
 @property (weak, nonatomic) IBOutlet UIImageView *thumbnailView;

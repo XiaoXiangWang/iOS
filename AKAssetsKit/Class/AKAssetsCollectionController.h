@@ -17,7 +17,7 @@ typedef NS_OPTIONS(NSUInteger, SAAssetsOption) {
 };
 
 
-@interface AKAssetsListController : UIViewController
+@interface AKAssetsCollectionController : UIViewController
 
 /**
  *  资源组

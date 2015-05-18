@@ -22,8 +22,8 @@
 		1E10C2F71AB1EC0A00A11C1D /* AKAssetsGroupController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E10C2DE1AB1EC0A00A11C1D /* AKAssetsGroupController.xib */; };
 		1E10C2F81AB1EC0A00A11C1D /* AKAssetsGroupViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10C2E01AB1EC0A00A11C1D /* AKAssetsGroupViewCell.m */; };
 		1E10C2F91AB1EC0A00A11C1D /* AKAssetsGroupViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E10C2E11AB1EC0A00A11C1D /* AKAssetsGroupViewCell.xib */; };
-		1E10C2FA1AB1EC0A00A11C1D /* AKAssetsListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10C2E31AB1EC0A00A11C1D /* AKAssetsListController.m */; };
-		1E10C2FB1AB1EC0A00A11C1D /* AKAssetsListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E10C2E41AB1EC0A00A11C1D /* AKAssetsListController.xib */; };
+		1E10C2FA1AB1EC0A00A11C1D /* AKAssetsCollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10C2E31AB1EC0A00A11C1D /* AKAssetsCollectionController.m */; };
+		1E10C2FB1AB1EC0A00A11C1D /* AKAssetsCollectionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E10C2E41AB1EC0A00A11C1D /* AKAssetsCollectionController.xib */; };
 		1E10C2FC1AB1EC0A00A11C1D /* AKAssetsPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10C2E61AB1EC0A00A11C1D /* AKAssetsPickerController.m */; };
 		1E10C2FD1AB1EC0A00A11C1D /* AKAuthorizationFailureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10C2E81AB1EC0A00A11C1D /* AKAuthorizationFailureController.m */; };
 		1E10C2FE1AB1EC0A00A11C1D /* AKAuthorizationFailureController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E10C2E91AB1EC0A00A11C1D /* AKAuthorizationFailureController.xib */; };
@@ -33,6 +33,7 @@
 		1E10C3021AB1EC0A00A11C1D /* UIBarButtonItem+AKAssetsKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10C2F11AB1EC0A00A11C1D /* UIBarButtonItem+AKAssetsKit.m */; };
 		1E10C3031AB1EC0A00A11C1D /* UIView+AKAssetsKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E10C2F31AB1EC0A00A11C1D /* UIView+AKAssetsKit.m */; };
 		1E10C30F1AB1EC8300A11C1D /* AKAssetsKit.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E10C3111AB1EC8300A11C1D /* AKAssetsKit.strings */; };
+		C044456D1B05A02C0089E6E6 /* NSArray+AKOverview.m in Sources */ = {isa = PBXBuildFile; fileRef = C044456C1B05A02C0089E6E6 /* NSArray+AKOverview.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,9 +71,9 @@
 		1E10C2DF1AB1EC0A00A11C1D /* AKAssetsGroupViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKAssetsGroupViewCell.h; sourceTree = "<group>"; };
 		1E10C2E01AB1EC0A00A11C1D /* AKAssetsGroupViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKAssetsGroupViewCell.m; sourceTree = "<group>"; };
 		1E10C2E11AB1EC0A00A11C1D /* AKAssetsGroupViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKAssetsGroupViewCell.xib; sourceTree = "<group>"; };
-		1E10C2E21AB1EC0A00A11C1D /* AKAssetsListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKAssetsListController.h; sourceTree = "<group>"; };
-		1E10C2E31AB1EC0A00A11C1D /* AKAssetsListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKAssetsListController.m; sourceTree = "<group>"; };
-		1E10C2E41AB1EC0A00A11C1D /* AKAssetsListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKAssetsListController.xib; sourceTree = "<group>"; };
+		1E10C2E21AB1EC0A00A11C1D /* AKAssetsCollectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKAssetsCollectionController.h; sourceTree = "<group>"; };
+		1E10C2E31AB1EC0A00A11C1D /* AKAssetsCollectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKAssetsCollectionController.m; sourceTree = "<group>"; };
+		1E10C2E41AB1EC0A00A11C1D /* AKAssetsCollectionController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AKAssetsCollectionController.xib; sourceTree = "<group>"; };
 		1E10C2E51AB1EC0A00A11C1D /* AKAssetsPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKAssetsPickerController.h; sourceTree = "<group>"; };
 		1E10C2E61AB1EC0A00A11C1D /* AKAssetsPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKAssetsPickerController.m; sourceTree = "<group>"; };
 		1E10C2E71AB1EC0A00A11C1D /* AKAuthorizationFailureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKAuthorizationFailureController.h; sourceTree = "<group>"; };
@@ -90,6 +91,8 @@
 		1E10C2F31AB1EC0A00A11C1D /* UIView+AKAssetsKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AKAssetsKit.m"; sourceTree = "<group>"; };
 		1E10C3101AB1EC8300A11C1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AKAssetsKit.strings; sourceTree = "<group>"; };
 		1E10C3121AB1EC8600A11C1D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/AKAssetsKit.strings"; sourceTree = "<group>"; };
+		C044456B1B05A02C0089E6E6 /* NSArray+AKOverview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+AKOverview.h"; sourceTree = "<group>"; };
+		C044456C1B05A02C0089E6E6 /* NSArray+AKOverview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+AKOverview.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,9 +186,9 @@
 				1E10C2DF1AB1EC0A00A11C1D /* AKAssetsGroupViewCell.h */,
 				1E10C2E01AB1EC0A00A11C1D /* AKAssetsGroupViewCell.m */,
 				1E10C2E11AB1EC0A00A11C1D /* AKAssetsGroupViewCell.xib */,
-				1E10C2E21AB1EC0A00A11C1D /* AKAssetsListController.h */,
-				1E10C2E31AB1EC0A00A11C1D /* AKAssetsListController.m */,
-				1E10C2E41AB1EC0A00A11C1D /* AKAssetsListController.xib */,
+				1E10C2E21AB1EC0A00A11C1D /* AKAssetsCollectionController.h */,
+				1E10C2E31AB1EC0A00A11C1D /* AKAssetsCollectionController.m */,
+				1E10C2E41AB1EC0A00A11C1D /* AKAssetsCollectionController.xib */,
 				1E10C2E51AB1EC0A00A11C1D /* AKAssetsPickerController.h */,
 				1E10C2E61AB1EC0A00A11C1D /* AKAssetsPickerController.m */,
 				1E10C2E71AB1EC0A00A11C1D /* AKAuthorizationFailureController.h */,
@@ -201,6 +204,8 @@
 				1E10C2F11AB1EC0A00A11C1D /* UIBarButtonItem+AKAssetsKit.m */,
 				1E10C2F21AB1EC0A00A11C1D /* UIView+AKAssetsKit.h */,
 				1E10C2F31AB1EC0A00A11C1D /* UIView+AKAssetsKit.m */,
+				C044456B1B05A02C0089E6E6 /* NSArray+AKOverview.h */,
+				C044456C1B05A02C0089E6E6 /* NSArray+AKOverview.m */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -301,7 +306,7 @@
 				1E10C2BD1AB1EBB300A11C1D /* Main.storyboard in Resources */,
 				1E10C2F91AB1EC0A00A11C1D /* AKAssetsGroupViewCell.xib in Resources */,
 				1E10C2C21AB1EBB300A11C1D /* LaunchScreen.xib in Resources */,
-				1E10C2FB1AB1EC0A00A11C1D /* AKAssetsListController.xib in Resources */,
+				1E10C2FB1AB1EC0A00A11C1D /* AKAssetsCollectionController.xib in Resources */,
 				1E10C2FE1AB1EC0A00A11C1D /* AKAuthorizationFailureController.xib in Resources */,
 				1E10C2BF1AB1EBB300A11C1D /* Images.xcassets in Resources */,
 				1E0A84D11AB1EDEC007E03C1 /* AssetsPickerCheakNomal@2x.png in Resources */,
@@ -327,7 +332,7 @@
 				1E10C3031AB1EC0A00A11C1D /* UIView+AKAssetsKit.m in Sources */,
 				1E10C2F41AB1EC0A00A11C1D /* AKAssetsCell.m in Sources */,
 				1E10C2BA1AB1EBB300A11C1D /* ViewController.m in Sources */,
-				1E10C2FA1AB1EC0A00A11C1D /* AKAssetsListController.m in Sources */,
+				1E10C2FA1AB1EC0A00A11C1D /* AKAssetsCollectionController.m in Sources */,
 				1E10C3011AB1EC0A00A11C1D /* AKPhotoViewController.m in Sources */,
 				1E10C2F61AB1EC0A00A11C1D /* AKAssetsGroupController.m in Sources */,
 				1E10C2FD1AB1EC0A00A11C1D /* AKAuthorizationFailureController.m in Sources */,
@@ -338,6 +343,7 @@
 				1E10C2FC1AB1EC0A00A11C1D /* AKAssetsPickerController.m in Sources */,
 				1E10C2F81AB1EC0A00A11C1D /* AKAssetsGroupViewCell.m in Sources */,
 				1E10C3021AB1EC0A00A11C1D /* UIBarButtonItem+AKAssetsKit.m in Sources */,
+				C044456D1B05A02C0089E6E6 /* NSArray+AKOverview.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

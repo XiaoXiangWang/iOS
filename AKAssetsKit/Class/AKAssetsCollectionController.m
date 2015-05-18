@@ -6,7 +6,8 @@
 //  Copyright (c) 2015 WangXiaoXiang. All rights reserved.
 //
 
-#import "AKAssetsListController.h"
+#import "AKAssetsCollectionController.h"
+#import "AKOverviewController.h"
 #import "AKAssetsCell.h"
 #import <AssetsLibrary/AssetsLibrary.h>
 #import "UIBarButtonItem+AKAssetsKit.h"
@@ -18,7 +19,7 @@
 
 #define SAAssetsCellIdentifier @"SAAssetsCellIdentifier"
 
-@interface AKAssetsListController ()<UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
+@interface AKAssetsCollectionController ()<UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 
 /**
  *  资源数组
@@ -33,7 +34,7 @@
 
 @end
 
-@implementation AKAssetsListController
+@implementation AKAssetsCollectionController
 
 
 #pragma mark - Override function
@@ -73,10 +74,10 @@
     [super viewWillLayoutSubviews];
     UICollectionViewFlowLayout* layout = [UICollectionViewFlowLayout new];
     CGFloat width = 0;
-    if (UIDeviceOrientationIsPortrait([UIDevice currentDevice].orientation)) {
+    if (UIInterfaceOrientationIsPortrait([UIApplication sharedApplication].statusBarOrientation)) {
         width = (CGRectGetWidth(self.view.bounds)-2*3)/4;
         layout.sectionInset = UIEdgeInsetsMake(10, 0, 10, 0);
-    }else if(UIDeviceOrientationIsLandscape([UIDevice currentDevice].orientation)){
+    }else{
         width = (CGRectGetWidth(self.view.bounds)-2*8)/7;
         layout.sectionInset = UIEdgeInsetsMake(10, 2, 10, 2);
     }
@@ -137,6 +138,10 @@
 
 }
 -(void)_overviewAssets:(UIBarButtonItem*)sender{
+    AKOverviewController* __overviewController = [[AKOverviewController alloc] init];
+    __overviewController.assets = self.assets;
+    [self.navigationController pushViewController:__overviewController
+                                         animated:YES];
     
 }
 -(void)_confirmAssets:(UIBarButtonItem*)sender{

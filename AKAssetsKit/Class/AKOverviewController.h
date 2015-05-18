@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AKOverviewController : UIPageViewController<UIPageViewControllerDelegate>
+@interface AKOverviewController : UIPageViewController
+@property(nonatomic,strong) NSArray* assets;
+
+@property(nonatomic,assign) NSUInteger currentIndex;
 
 @end

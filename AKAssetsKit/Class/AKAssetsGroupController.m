@@ -10,7 +10,7 @@
 #import "AKAssetsGroupViewCell.h"
 #import <AssetsLibrary/AssetsLibrary.h>
 #import "UIBarButtonItem+AKAssetsKit.h"
-#import "AKAssetsListController.h"
+#import "AKAssetsCollectionController.h"
 
 @interface AKAssetsGroupController ()
 
@@ -124,7 +124,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     // Navigation logic may go here, for example:
     // Create the next view controller.
-    AKAssetsListController *detailViewController = [[AKAssetsListController alloc] init];
+    AKAssetsCollectionController *detailViewController = [[AKAssetsCollectionController alloc] init];
     detailViewController.assetsGroup = self.groups[indexPath.row];
     
     // Push the view controller.

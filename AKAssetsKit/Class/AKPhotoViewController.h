@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <AssetsLibrary/AssetsLibrary.h>
 @interface AKPhotoViewController : UIViewController
+
+@property(nonatomic,strong) ALAsset* asset;
 
 @end

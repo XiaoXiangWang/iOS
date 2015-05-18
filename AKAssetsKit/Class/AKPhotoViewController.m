@@ -7,15 +7,30 @@
 //
 
 #import "AKPhotoViewController.h"
+#import "AKImageScrollView.h"
 
 @interface AKPhotoViewController ()
+
+@property(nonatomic,weak) AKImageScrollView* imageScrollView;
 
 @end
 
 @implementation AKPhotoViewController
 
+
+-(void)loadView{
+    [super loadView];
+    AKImageScrollView* imageScrollView = [[AKImageScrollView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:imageScrollView];
+    self.imageScrollView = imageScrollView;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    ALAssetRepresentation *assetRepresentation = [self.asset defaultRepresentation];
+    [self.imageScrollView displayImage:[UIImage imageWithCGImage:[assetRepresentation fullScreenImage]
+                                                           scale:assetRepresentation.scale
+                                                     orientation:UIImageOrientationUp]];
     // Do any additional setup after loading the view from its nib.
 }
 

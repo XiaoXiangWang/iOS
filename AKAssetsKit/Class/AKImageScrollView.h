@@ -11,10 +11,6 @@
 
 @interface AKImageScrollView : UIScrollView
 
-@property(nonatomic,strong) ALAsset* asset;
-
-@property(nonatomic,assign) NSUInteger index;
-
-+(NSUInteger)imageCount;
+-(void)displayImage:(UIImage*)image;
 
 @end
